@@ -1,0 +1,26 @@
+<!-- dialog_fuel_entry.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/fuelAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fuel_amount_en" />
+
+    <EditText
+        android:id="@+id/fuelCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fuel_cost_en" />
+
+    <EditText
+        android:id="@+id/kilometers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/kilometers_driven" />
+
+</LinearLayout>
